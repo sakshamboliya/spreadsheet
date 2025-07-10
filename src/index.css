@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enhanced Styling */
+.btn {
+  @apply px-3 py-1 bg-gray-100 hover:bg-blue-100 border border-gray-300 rounded text-sm font-medium transition;
+}
+
+input {
+  @apply w-full px-2 py-1 bg-white outline-none focus:ring focus:ring-blue-300 rounded;
+}
